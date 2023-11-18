@@ -1,0 +1,236 @@
+/*app.css*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.signin{
+  position: absolute;
+  right: 5%;
+  top: 3.5%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+ 
+.title {
+  position: absolute;
+  left: 45%;
+  top: 2.4%;
+  font-size: 30px;
+  color: white;
+}
+.welcome-message {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  right: 12%;
+  top: 3.5%;
+  transition: color 0.3s ease;
+}
+
+.welcome-message:hover {
+  color: #61dafb;
+}
+
+.nav-container ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-container button {
+  position: absolute;
+  right: 2.5%;
+  top: 2.5%;
+  width: 6%;
+}
+
+.nav-container ul li {
+  margin-right: 20px;
+}
+
+.tags{
+  position: absolute;
+  top: 3.5%;
+}
+.nav-container ul li:last-child {
+  margin-left: auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Modern font from Google Fonts */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Overall container styles */
+.App {
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background: #282c34;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #61dafb;
+}
+
+/* Modern menu */
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  background-color: #2a2e3b; /* Updated background color */
+}
+
+.menu a {
+  color: #fff; /* White text color */
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font */
+  letter-spacing: 1px; /* Add letter spacing for a more modern look */
+  transition: color 0.3s ease;
+}
+
+.menu a:hover {
+  color: #61dafb;
+}
+
+/* Other styles */
+.container {
+  max-width: 800px; /* Increased max-width for better responsiveness */
+}
+
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Add a subtle box shadow to the menu for a modern touch */
+.menu {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: linear-gradient(to right, #61dafb, #4285f4);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to right, #4285f4, #61dafb);
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+}

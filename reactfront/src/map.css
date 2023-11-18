@@ -1,0 +1,110 @@
+/*map.css*/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3{
+  color: #27ae60;
+}
+
+.pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 9px 10px 9px 12px;
+  text-overflow: ellipsis;
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  right: 4%;
+  z-index: 1;
+  border-radius: 15px;
+  border: 2px solid #000;
+}
+
+.pac-input2 {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 9px 10px 9px 12px;
+  text-overflow: ellipsis;
+  width: 350px;
+  position: absolute;
+  top: 17%;
+  right: 4%;
+  z-index: 1;
+  border-radius: 15px;
+  border: 2px solid #000; 
+}
+.pac-input3 {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  padding: 9px 10px 9px 12px;
+  text-overflow: ellipsis;
+  width: 350px;
+  position: absolute;
+  top: 24%;
+  right: 4%;
+  z-index: 1;
+  border-radius: 15px;
+  border: 2px solid #000;
+  z-index: 1;
+}
+
+.find-directions-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  position: absolute;
+  top: 33%;
+  right: 4%;
+  width: 125px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.recalculate-button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 10px;
+  position: absolute;
+  top: 4%;
+  right: 46%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.download-directions-button{
+  position: absolute;
+  top: 4%;
+  right: 21%;
+  border-radius: 5px;
+}
+
+.print-directions-button{
+  position: absolute;
+  top: 4%;
+  right: 4%;
+  border-radius: 5px;
+}

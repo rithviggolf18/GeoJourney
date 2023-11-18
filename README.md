@@ -1,5 +1,5 @@
 ﻿# GeoJourney
-An interactive map to find optimal trip route from multiple POI's, calculate time and freeway/city distance of trip, and display gas stations along the route
+GeoJourney is an interactive map used to find optimal trip route from multiple POI's, calculate time and freeway/city distance of trip, and display gas stations along the route
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -45,9 +45,6 @@ function App() {
             <li>
               <Link to="/map">Map</Link>
             </li>
-            <li>
-              <Link to="/incident">Incidents</Link>
-            </li>
             </div>
             <div className="title">
               <li>GeoJourney</li>
